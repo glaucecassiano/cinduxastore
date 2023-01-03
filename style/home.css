@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav {
+    
+    right: 0;
+    top: 150px;
+}
+
+nav a:hover {
+    color: goldenrod;
+    text-decoration: overline;
+
+}
+
+.menu h1 {
+    font-family: Shadows Into Light;
+    font-size: 50px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 200px;
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    background-color: rgb(202, 202, 255);
+    height: 250px;
+}
+
+
+.logo{
+    width: 600px;
+    height: 250px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+li:hover{
+    color: goldenrod;
+    border: 30px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+
+img{
+    width: 250px;
+    height: 300px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    
+}
+
+footer p {
+    font-family: Shadows Into Light ;
+}
+
+footer {
+    background-color: rgb(202, 202, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
